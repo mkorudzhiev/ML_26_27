@@ -1,0 +1,53 @@
+# Виртуални среди. Пресъздават се от environment.yml или requirements.txt,
+# затова никога не влизат в хранилището.
+.venv/
+venv/
+env/
+.conda/
+conda-meta/
+
+# Байткод на Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+.virtual_documents/
+
+# Файлове, които се създават при изпълнение на тетрадките.
+# Всеки ги получава сам, не се предават.
+поздрав.py
+демо_скрипт.py
+проба.py
+
+# Google Drive
+desktop.ini
+.tmp.driveupload/
+.tmp.drivedownload/
+Icon?
+
+# Операционна система
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Редактори
+.vscode/
+.idea/
+*.swp
+*~
+
+# Разни
+*.log
+.env
+
+# Материали само за водещия. Съдържат отговорите на въпросите, времевия план и
+# приоритета на рязане, затова не отиват при студентите.
+ПЛАН.md
+PLAN.md
+_За_преподавателя

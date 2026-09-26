@@ -1,0 +1,9 @@
+# Общи пакети за упражненията по Машинно самообучение.
+numpy>=2.0
+pandas>=2.2.2,<4
+scikit-learn>=1.5,<2
+scipy>=1.13,<2
+seaborn>=0.13,<1
+matplotlib>=3.9
+jupyterlab>=4.2
+ipykernel>=6.29
