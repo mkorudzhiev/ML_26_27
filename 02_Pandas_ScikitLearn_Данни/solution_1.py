@@ -50,7 +50,7 @@ def main():
     # Прогноза за един тестов ред
     case = heart_X_test.iloc[[4]]
     predicted_chd = int(heart_model.predict(case)[0])
-    actual_chd = int(heart_y_test.iloc[0])
+    actual_chd = int(heart_y_test.iloc[4])
     display(case)
     print("Прогноза:", predicted_chd, "действителна стойност:", actual_chd)
 
