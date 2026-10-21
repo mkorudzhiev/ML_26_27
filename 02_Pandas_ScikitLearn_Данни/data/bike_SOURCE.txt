@@ -1,0 +1,35 @@
+Bike Sharing - източник за упражнение 2, част 4
+
+Автор: Hadi Fanaee-T (2013), UCI Machine Learning Repository.
+Страница: https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+DOI: https://doi.org/10.24432/C5W894
+Архив: https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip
+Дата на изтегляне: 2026-10-14
+Лиценз според текущата страница на UCI: Creative Commons Attribution 4.0 International.
+Лиценз: https://creativecommons.org/licenses/by/4.0/
+Свързана публикация: Fanaee-T, H. and Gama, J., Event labeling combining
+ensemble detectors and background knowledge, Progress in Artificial Intelligence.
+DOI: https://doi.org/10.1007/s13748-013-0040-3 (първа онлайн публикация през 2013 г.).
+
+bike_hour.csv е байтово копие на hour.csv от архива, с променено име.
+bike_Readme_original.txt е байтово копие на Readme.txt.
+Не са променяни стойности, не са добавяни синтетични редове или липси.
+Файлът съдържа 17379 реда и 17 колони, без празни клетки.
+Един ред е обобщение за час за цялата система Capital Bikeshare,
+Washington D.C., USA, а не отделно пътуване или станция.
+Период: 2011-01-01 00:00 до 2012-12-31 23:00.
+При календарна мрежа с 17544 позиции липсват 165 часови записа.
+655 дни имат по 24 налични часови стойности; 76 са непълни.
+Причината за всеки липсващ момент не може да се установи само от този CSV.
+Часовите етикети нямат UTC отместване или часови пояс.
+
+Уточнение: старият README и текущата страница на UCI дават различни
+формули за температурната нормализация. Упражнението не преобразува
+температурите обратно и не ги използва в сравнението.
+Текущата страница на UCI изписва 17389 instances; реалният hour.csv
+и оригиналният README съдържат 17379. Броят в упражнението е проверен от файла.
+
+Учебните таблици с жилища, адреси и координати са изцяло синтетични,
+създадени за упражнението, и не са част от UCI набора.
+
+SHA256 bike_hour.csv: e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f
